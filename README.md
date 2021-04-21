@@ -1,2 +1,2 @@
 # mini-dashboard
-Dasboard
+Dashboard
