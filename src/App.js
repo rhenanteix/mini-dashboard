@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import PaymentCard from 'react-payment-card-component'
+import MiniCard from  './MiniCard';
+import LargeCard from './LargeCard';
 
 
 function App() {
@@ -8,7 +10,11 @@ function App() {
     <div className="App">
       <header className="App-header">
     <div className="card-header">
-      <h2>Dashboard</h2>
+    <div className="life-results">
+      <h2>Upcoming Payments</h2>
+    </div>
+    <MiniCard />
+    <LargeCard />  
     <div className="card-pay">    
       <PaymentCard
       bank="itau"
@@ -22,6 +28,7 @@ function App() {
       flipped={false}
     />
     </div>
+       
     </div>
       </header>
     </div>
