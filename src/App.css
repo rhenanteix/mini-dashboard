@@ -24,11 +24,12 @@
   color: white;
 }
 
-.card-header {
+.card {
+  width: 80%;
   background-color: white;
-  width: 90%;
-  height: auto;
-  border-radius: 50px;
+  border-radius: 30px;
+  margin-top: 10%;
+  padding-top: 10%;
 }
 
 .card-pay {

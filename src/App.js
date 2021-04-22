@@ -9,14 +9,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-    <div className="card-header">
-    <div className="life-results">
-      <h2>Upcoming Payments</h2>
-    </div>
-    <MiniCard />
-    <LargeCard />  
+       <div className="card">
+         <PaymentCard />
+      </div> 
+        
+    {/* <MiniCard />
+    <LargeCard />   */}
     <div className="card-pay">    
-      <PaymentCard
+      {/* <PaymentCard
       bank="itau"
       model="personnalite"
       type="black"
@@ -26,11 +26,9 @@ function App() {
       holderName="Owen Lars"
       expiration="12/20"
       flipped={false}
-    />
+    /> */}
     </div>
-       
-    </div>
-      </header>
+  </header>
     </div>
   );
 }
