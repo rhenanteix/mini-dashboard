@@ -38,10 +38,10 @@
   margin: 50px;
 }
 
-.life-results {
-  flex: auto;
-  margin-left: 40px;
+.new-payment {
+  padding-left: 60px;
 }
+
 
 .App-link {
   color: #61dafb;
@@ -54,7 +54,6 @@
   border-radius: 30px;
   float: right;
   margin-right: 37%;
-  margin-top: 35px;
 }
 
 .large-card {
@@ -63,8 +62,7 @@
   width: 20%;
   height: 30%;
   position: absolute;
-  margin-left: 66%;
-  margin-top: 30px;
+  margin-left: 60%;
 }
 
 @keyframes App-logo-spin {
