@@ -1,4 +1,6 @@
 import './App.css';
+import PaymentCard from "react-payment-card-component";
+
 
 
 
@@ -6,7 +8,6 @@ import './App.css';
 function LargeCard() {
     return (
         <div className="large-card">
-            <p>teste</p>
         </div>
     );
 }

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #f3f5fa;
 }
 
 .App-logo {
@@ -13,35 +14,21 @@
   }
 }
 
-.App-header {
+.sidebar {
   background-color: #f3f5fa;
+
+}
+
+.App-header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
+  background-color: #f3f5fa;
 
-.card {
-  width: 80%;
-  background-color: white;
-  border-radius: 30px;
-  margin-top: 10%;
-  padding-top: 10%;
 }
-
-.card-pay {
-  flex: auto;
-  align-self: flex-start;
-  margin: 50px;
-}
-
-.new-payment {
-  padding-left: 60px;
-}
-
 
 .App-link {
   color: #61dafb;
@@ -57,12 +44,11 @@
 }
 
 .large-card {
-  background-color:  #000;
+  background-color: #fff;
   border-radius: 30px;
-  width: 20%;
-  height: 30%;
-  position: absolute;
-  margin-left: 60%;
+  width: 80%;
+  flex: 1;
+  margin: 8%;
 }
 
 @keyframes App-logo-spin {
