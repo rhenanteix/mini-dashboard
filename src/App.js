@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import { Avatar } from '@material-ui/core';
 import "./App.css";
 // import MiniCard from "./MiniCard";
 import LargeCard from "./LargeCard";
@@ -24,6 +25,11 @@ const items = [
 function App() {
   return (
     <div className="App">
+      <section>
+        <div>
+        <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+        </div>
+      </section>
       <header className="App-header">
       <LargeCard/>
 
